@@ -1,27 +1,17 @@
-import { Contacto } from './pages/landing/Contacto'
-import { Portafolio } from './pages/landing/Portafolio'
-import { Experiencia } from './pages/landing/Experiencia'
-import { Estudios } from './pages/landing/Estudios'
-import { Habilidades } from './pages/landing/Habilidades'
-import { Perfil} from './pages/landing/Perfil'
-import { Navbar } from './routes/Navbar'
-import {Footer} from './routes/Footer'
-import { Inicio } from './pages/landing/Inicio';
+import{ BrowserRouter as Router } from 'react-router-dom'
+import { Navbar } from './components/Navbar'
+import { Footer } from './routes/Footer'
+import { AppNavigate } from './routes/AppNavigate'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
-      <Navbar/>
-      <Inicio/>
-      <Perfil/>
-      <Habilidades/>
-      <Estudios/>
-      <Experiencia/>
-      <Portafolio/>
-      <Contacto/>
-      <Footer/>
-    </div>
+      <div className="App">
+        <Router>
+          <Navbar/>
+          <AppNavigate />
+          <Footer/>
+        </Router>
+      </div>
   );
 }
 
