@@ -1,8 +1,9 @@
 import React from "react";
-
+import mifoto from './assets/img/mifoto.png'
 
 export const Perfil = () => {
   return (
+      <img src = "assest\img\mifoto"/>
     <div className="card" style={{ width: "18rem" }}>
       <img src="" className="card-img-left" alt="..." />
       <div className="card-body">
