@@ -5,6 +5,7 @@ import { Estudios } from './pages/landing/Estudios'
 import { Habilidades } from './pages/landing/Habilidades'
 import { Perfil} from './pages/landing/Perfil'
 import { Navbar } from './routes/Navbar'
+import {Footer} from './routes/Footer'
 import { Inicio } from './pages/landing/Inicio';
 
 function App() {

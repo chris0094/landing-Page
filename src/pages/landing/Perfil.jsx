@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export const Perfil = () => {
   return (
     <div className="card" style={{ width: "18rem" }}>
