@@ -1,7 +1,9 @@
 import { Routes, Route } from "react-router-dom"
 import React from 'react'
+import { Navbar } from "./Navbar"
+import  Footer  from './Footer'
 
-import { Formation, Home, Profile, Skills, Portfolio, Contact, Experience } from '../pages'
+import { Perfil, Estudios, Habilidades, Experiencia, Portafolio, Contacto, Inicio } from "../pages"
 
 export const AppNavigate = () => {
   return (
