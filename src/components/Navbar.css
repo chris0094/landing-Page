@@ -1,8 +1,26 @@
 .navbar {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 50px;
+}
 
+.navbar__logo {
+	display: flex;
+	height: 70px;
+}
 
+.navbar__links {
+	display: flex;
+  gap: 25px;
+  align-items: center;
+}
 
-    display: flex;
-
-
-
+.navbar__links>* {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2rem;
+	line-height: 24px;
+	color: #000000;
+	text-decoration: none;
+}
