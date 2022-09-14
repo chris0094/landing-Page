@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Estudios = () => {
+export const Formation = () => {
   return (
     <div>Estudios</div>
   )

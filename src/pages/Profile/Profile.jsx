@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Perfil = () => {
+export const Profile = () => {
   return (
     <div className="card" style={{ width: "18rem" }}>
       <img src="" className="card-img-left" alt="..." />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Portafolio = () => {
+export const Portfolio = () => {
   return (
     <div>Portafolio</div>
   )
