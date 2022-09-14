@@ -11,7 +11,7 @@ export const Home = () => {
         <h3>los invito a conocer mi trabajo.</h3>
       </div>
       <div className='home__image'>
-        <img src={image} />
+        <img src={image} alt='Presentation' />
       </div>
     </div>
   )

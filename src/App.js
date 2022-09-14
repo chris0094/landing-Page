@@ -1,17 +1,17 @@
-import{ BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
 import { AppNavigate } from './routes/AppNavigate'
 
 const App = () => {
   return (
-      <div className="App">
-        <Router>
-          <Navbar/>
-          <AppNavigate />
-          <Footer/>
-        </Router>
-      </div>
+    <div className="App">
+      <Router>
+        <Navbar />
+        <AppNavigate />
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
