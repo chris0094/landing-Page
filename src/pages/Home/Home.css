@@ -1,7 +1,7 @@
 .home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: 'Roboto';
+  justify-items: center;
 }
 
 .home__presentation {
@@ -9,7 +9,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-left: 18rem;
 }
 
 .home__presentation h1 {
@@ -17,6 +16,7 @@
   font-size: 110px;
   line-height: 24px;
   color: #021E73;
+  margin: 60px 0px;
 }
 
 .home__presentation h2 {
@@ -39,4 +39,16 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+@media screen and (max-width: 1470px) {
+  .home {
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+  }
+
+  .home__image img {
+    width: 80%;
+    margin: auto;
+  }
 }
