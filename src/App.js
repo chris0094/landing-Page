@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Navbar } from './components/Navbar'
-import { Footer } from './components/Footer'
 import { AppNavigate } from './routes/AppNavigate'
+import './App.css';
 
 const App = () => {
   return (
@@ -9,7 +9,6 @@ const App = () => {
       <Router>
         <Navbar />
         <AppNavigate />
-        <Footer />
       </Router>
     </div>
   );

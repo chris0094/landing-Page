@@ -1,3 +1,6 @@
 * {
+  margin: 0px; 
+  padding: 0px;
   font-family: 'Roboto', sans-serif;
+  transition: 0.4s ease-in;;
 }
